@@ -1,0 +1,106 @@
+body{
+    padding: 0;
+    margin: 0;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+nav{
+    position: fixed;
+    height: 100px;
+    width: 100%;
+    line-height: 100px;
+    transition: all .4s ease-in-out ;
+}
+
+nav.black{
+    background: rgba(0, 0, 0, 0.8);
+    height: 100px;
+    width: 100%;
+    padding: 10px 40px;
+	z-index: 999;
+}
+
+nav.black ul li a{
+    color: #fff;
+}
+
+nav .logo{
+    float: left;
+    text-decoration: none;
+    font-size: 30px;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    margin-left: 100px;
+    color: #fff;
+    font-weight: bold;
+}
+
+nav ul{
+    margin-left: 50px;
+    float: right;
+    margin: 0;
+    margin-right: 100px;
+}
+
+nav ul li{
+    float: left;
+    list-style: none;
+}
+
+nav ul li a{
+    padding: 15px 30px;
+    text-transform: uppercase;
+    text-decoration: none;
+    color: #000031;
+    font-weight: 500;
+    transition: all .3s;
+}
+
+nav ul li a:focus{
+    outline: none;
+}
+
+nav ul li a.active{
+    background: #ddd;
+    height: 100%;
+    width: 100%;
+    border-radius: 5px;
+}
+
+nav ul li a:hover{
+    background: #ddd;
+    height: 100%;
+    width: 100%;
+    border-radius: 5px;
+}
+
+.backBg{
+    background: url('image/bg.png');
+    height: 100vh;
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+	
+}
+
+.top-text{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.top-text h2{
+    font-size: 40px;
+    color: #000031;
+}
+
+.top-text p{
+    color: rgb(48, 33, 63);
+    font-size: 20px;
+}
+
+.sec1{
+    margin: 30px;
+    padding: 10px;
+}
